@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#titulo{
+    background-color: #303030;
+    color: white;
+}
+
+#titulo>h1{
+    padding-top: 170px;
+    margin-left: 50px;
+
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#titulo>p{
+    padding-bottom: 140px;
+    margin-left: 50px;
+}
+
+#dados{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    padding-left: 72px;
+}
+
+.dado{
+    margin-left: 50px;
+}
+
+.dado>h2{
+    font-size: 35px;
+    font-weight: 600;    
+}
+
+#texto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-bottom: 92px;
+}
+
+#texto>div{
+    margin: 0px 0px 0px 50px;
+}
+
+#descricao>h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#descricao>p{
+    font-size: 18px;
+}
+
+#texto>img{
+    margin-top: 62px;
+}
+
+#coleta{
+    background-color: #303030;
+    text-align: center;
+    padding-top: 87px;
+}
+
+#coleta>h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin: 25px;
+    width: 450px;
+    height: 72px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 0px;
+}
+
+button{
+    margin: 40px 0px 88px 0px;
+    width: 286px;
+    height: 74px;
+
+    background-color: #C07212; 
+    border-radius: 10px;
+    border: 0px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e88d1e; 
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 10px black;
+}
