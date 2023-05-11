@@ -9,16 +9,18 @@
 }
 
 #titulo>h1{
-    padding-top: 170px;
-    margin-left: 50px;
+    padding-top: 206px;
+    margin-left: 62px;
 
     font-weight: 600;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 #titulo>p{
-    padding-bottom: 140px;
-    margin-left: 50px;
+    padding-bottom: 149px;
+    margin-left: 62px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 #dados{
@@ -26,18 +28,17 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding-top: 96px;
-    padding-bottom: 66px;
-    padding-left: 72px;
-}
-
-.dado{
-    margin-left: 50px;
+    padding: 96px 64px 66px 171px;
 }
 
 .dado>h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;    
+}
+
+.dado>p{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #texto{
@@ -49,20 +50,22 @@
 }
 
 #texto>div{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 77px;
 }
 
 #descricao>h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 #descricao>p{
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 #texto>img{
-    margin-top: 62px;
+    margin-top: 82px;
+    margin-left: 64px;
 }
 
 #coleta{
@@ -73,13 +76,14 @@
 
 #coleta>h3{
     color: white;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 17px;
 }
 
 input{
-    margin: 25px;
-    width: 450px;
+    margin: 31px;
+    width: 508px;
     height: 72px;
     border-radius: 10px;
     padding-left: 20px;
@@ -88,7 +92,7 @@ input{
 }
 
 button{
-    margin: 40px 0px 88px 0px;
+    margin: 57px 0px 87px 0px;
     width: 286px;
     height: 74px;
 
